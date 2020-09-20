@@ -1,6 +1,6 @@
 defmodule RumblWeb.Presence do
   use Phoenix.Presence,
-    otp_app: :rumbl,
+    otp_app: :rumbl_web,
     pubsub_server: Rumbl.PubSub
 
   def fetch(_topic, entries) do
